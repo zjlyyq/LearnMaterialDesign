@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CoordinatorAppbarActivity"></activity>
+        <activity android:name=".CollapsingToolbarLayout.CollapsingToolbarLayoutActivity"></activity>
     </application>
 
 </manifest>

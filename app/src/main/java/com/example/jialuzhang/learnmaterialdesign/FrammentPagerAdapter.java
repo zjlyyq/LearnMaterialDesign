@@ -13,6 +13,7 @@ import java.util.List;
  */
 
 public class FrammentPagerAdapter extends FragmentPagerAdapter {
+    String[] titles = new String[]{"话题","状态"};
     private List<Fragment> list;
     public FrammentPagerAdapter(FragmentManager fm,List<Fragment> list) {
         super(fm);
@@ -29,4 +30,8 @@ public class FrammentPagerAdapter extends FragmentPagerAdapter {
         return list.size();
     }
 
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return titles[position];
+    }
 }

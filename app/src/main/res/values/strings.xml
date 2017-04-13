@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LearnMaterialDesign</string>
+    <string name="card_text">因为我们没有什么不同
+                            ,天黑时我们仰望同一片星空
+                            ,没有追求和付出哪来的成功
+                            ,谁说我们一定要走别人的路
+                            ,谁说辉煌背后没有痛苦
+                            ,只要为了梦想不服输
+                            ,再苦也不停止脚步</string>
 </resources>
